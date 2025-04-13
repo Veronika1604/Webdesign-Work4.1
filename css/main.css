@@ -1,0 +1,939 @@
+body{
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+/*HEADER*/
+.header{
+	padding-top:80px;
+}
+
+.main_logo{
+	font-family: 'italiana', serif;
+	font-size:80px;
+	margin-left: 70px;
+	color:#4D1F08;
+}
+
+.main_logo_text{
+	font-family: 'island moments', serif;
+	font-size:50px;
+	margin-left: 65px;
+	margin-top: -20px;
+	color: #000000;
+}
+
+.main_nav{
+	height: 80px;
+  	background-color: #BAB0A7;
+
+
+}
+
+.menu{
+	display:flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	margin-left: 100px;
+  	margin-right: 100px;
+  	padding-top: 15px;
+}
+.menu_icons{
+	position: relative;
+	top: -50px;
+	left: 85%;
+}
+.menu_icons a{
+	padding-left: 10px;
+}
+
+
+.menu a{
+	color:#4D1F08;
+	font-size: 40px;
+	font-family: 'Cormorant Garamond';
+	text-decoration: none;
+}
+
+.main_text{
+	color:#4D1F08;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 500;
+	font-family: 'Cormorant Garamond';
+}
+
+.menu_img{
+	width:100%;
+	height:860px;
+	object-fit:cover;
+}
+
+
+/*SECTION text after menu*/
+.text_after_menu{
+	margin-left: 50px;
+}
+
+.text_about{
+	color:#4D1F08;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	margin-top: 80px;
+	line-height: 1.2;
+	margin-bottom: 50px;
+}
+
+.text_button_1{
+	padding: 15px 120px;
+ 	border: 1px solid #000000;   /* рамка */
+ 	background-color: transparent;   /* прозорий фон */
+ 	color: #000000;                  /* колір тексту */
+ 	font-family:'Rufina', serif;
+ 	font-size: 32px;
+ 	font-weight: 400;
+  	text-align: center;              /* центрує текст */
+  	cursor: pointer;
+  	margin-left: 260px;
+}
+.text_button_2{
+	padding: 15px 120px;
+ 	border: 1px solid #000000;   /* рамка */
+ 	background-color: transparent;   /* прозорий фон */
+ 	color: #000000;                  /* колір тексту */
+ 	font-family:'Rufina', serif;
+ 	font-size: 32px;
+ 	font-weight: 400;
+  	text-align: center;              /* центрує текст */
+  	cursor: pointer;
+  	margin-left: 120px;
+}
+
+
+
+/*CARD ITEM*/
+
+/*THREE CARDS*/
+.card_item{
+	margin-top: 40px;
+	padding-bottom: 100px;
+	background-color: #FFF5F5;
+	padding-top: 100px;
+	padding-left: 90px;
+	padding-right: 90px;
+}
+
+.three_cards{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card_border_three{
+	border-left: 2px solid #D1BEA2;
+	padding: 0;
+	margin: 0px;
+}
+
+.card_img{
+	background-color: #fff;
+	padding: 50px 50px 30px 50px;
+}
+
+.card_img h6{
+	margin: 0;
+	text-align: center;
+	font-family:'Rufina', serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.card_img img{
+	width: 280PX;
+	height: 240px;
+}
+
+.card button{
+	padding: 8px 50px;
+ 	border: 1px solid #000000;   /* рамка */
+ 	background-color: transparent;   /* прозорий фон */
+ 	color: #000000;                  /* колір тексту */
+ 	font-family:'Rufina', serif;
+ 	font-size: 16px;
+ 	font-weight: 400;
+  text-align: center;              /* центрує текст */
+  margin-top: 20px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+/*TWO CARDS*/
+.two_cards{
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.card_border{
+	margin:20px 140px 20px 140px;
+
+}
+.card_border button{
+	margin-top: 0px;
+
+}
+
+.card_border-left{
+	border-right: 2px solid #D1BEA2;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+/*ABOUT US*/
+.info_about_us{
+	margin-top: 100px;
+	padding-bottom: 200px;
+	background-color: #FFF5F5;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 90px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.ifno_about_us_img{
+	display: flex;
+	justify-content: space-between;
+}
+
+.images_about_us_1{
+	position: relative;
+	z-index: 2;
+	height: 460px;
+	width: 380px;
+}
+
+.info_about_us_border{
+	border: 5px solid #957461;
+	margin-left: 10px;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	padding-left: 180px;
+	padding-right: 130px;
+	position: relative;
+	top: 200px;
+	left: -230px;
+	z-index: 1;
+
+}
+.images_about_us_2{
+	position: relative;
+	z-index: 3;
+	top: 350px;
+	left: -450px;
+	height: 350px;
+	width: 300px;
+}
+
+.ifno_about_us_text{
+	position: relative;
+	left: -400px;
+	margin-top: 180px;
+}
+
+.ifno_about_us_text h2{
+	color:#4D1F08;
+	font-size: 80px;
+	font-weight: 500;	
+	font-family: 'Cormorant Garamond';
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+.ifno_about_us_text_1{
+	color:#4D1F08;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	width: 680px;
+	margin-bottom: 100px;
+}
+
+.next{
+	color:#4D1F08;
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'Cormorant Garamond', serif;
+	text-decoration: none;
+}
+
+
+
+/*CATALOGUE*/
+.catalogue{
+	height: 1300px;
+	background-color: #FFF5F5;
+	margin-top: 100px;
+
+}
+.catalogue h2{
+	text-align: center;
+	color:#4D1F08;
+	font-size: 80px;
+	font-weight: 500;
+	font-family: 'Cormorant Garamond', serif;
+	padding-top: 40px;
+	margin-bottom: 0px;
+}
+
+.catalogue_lavel{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 100px 0px 100px;
+}
+
+.catalogue_item_text{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.catalogue_item_text a{
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Cormorant Garamond', serif;
+	color:#4D1F08;
+	text-decoration: none;
+}
+
+.catalogue_lavel-margin{
+	margin-top: 100px;
+}
+
+.next-catalogue{
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+/*EXCLUSIVE_COLLECTION*/
+.exclusive_collection{
+	background-color: #DAD4C4;
+	height: 900px;
+}
+
+.exclusive_collection h2{
+	text-align: center;
+	color:#4D1F08;
+	font-size: 80px;
+	font-weight: 500;
+	font-family: 'Cormorant Garamond', serif;
+	margin-bottom: 10px;
+	padding-top: 110px;
+}
+
+.exclusive_collection h6{
+	text-align: center;
+	color:#4D1F08;
+	font-size: 32px;
+	font-weight: 700;
+	font-family: 'Cormorant Garamond', serif;
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+
+.exclusive_collection_box{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.exclusive_collection_item img{
+	width: 410px;
+	height: 250px;
+}
+.exclusive_collection_item_name{
+	font-family:'Rufina', serif;
+ 	font-size: 24px;
+ 	font-weight: 400;
+  text-align: center; 
+  margin-top: 20px;          
+}
+.exclusive_collection_item_price{
+	font-family:'Rufina', serif;
+ 	font-size: 24px;
+ 	font-weight: 400;
+  text-align: center;           
+}
+
+
+.exclusive_collection_item_button {
+	padding: 8px 50px;
+ 	border: 1px solid #000000;   /* рамка */
+ 	background-color: transparent;   /* прозорий фон */
+ 	color: #000000;                  /* колір тексту */
+ 	font-family:'Rufina', serif;
+ 	font-size: 16px;
+ 	font-weight: 400;
+  text-align: center;              /* центрує текст */
+  margin-top: 15px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+
+
+/*COLLECTION LOVE*/
+.collection_love{
+	margin-top: 160px;
+	width: 100%;
+	height: 820px;
+	background-image: url(../images/love_1.jpg);
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.collection_love img{
+	position: relative;
+	top: 300px;
+	left: 180px;
+}
+
+.collection_love h2{
+	position: relative;
+	top: 100px;
+	left: 60%;
+	color:#E8ECEC;
+	font-size: 64px;
+	font-weight: 500;
+	font-family: 'Cormorant Garamond', serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.collection_love button{
+	position: relative;
+	top: 200px;
+	left: 60%;
+	padding: 8px 50px;
+ 	border: 1px solid #fff;   /* рамка */
+ 	background-color: transparent;   /* прозорий фон */
+ 	color: #fff;                  /* колір тексту */
+ 	font-family:'Rufina', serif;
+ 	font-size: 16px;
+ 	font-weight: 400;
+  text-align: center;              /* центрує текст */
+  margin-top: 15px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+
+
+/*COLLECTION GOLD*/	
+.collection_gold{
+	margin-top: 120px;
+	background-color: #FFF4F4;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.collection_gold_box{
+	width: 800px;
+}
+
+.collection_gold h2{
+	font-size: 64px;
+	font-weight: 500;
+	font-family: 'Cormorant Garamond', serif;
+	width: 500px;
+	margin-left: 80px;
+}
+
+.collection_gold h6{
+	font-size: 32px;
+	font-weight: 400;
+	font-family: 'Cormorant Garamond', serif;
+	margin-left: 100px;
+}
+
+.gold_item_name{
+	color: #4D1F08;
+	font-size: 32px;
+	font-weight: 700;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.collection_gold_item{
+	display: flex;
+	margin-left: 100px;
+}
+
+.collection_gold_item_card{
+	width: 300px;	
+}
+	
+.collection_gold_img{
+	width: 60%;
+	height: 860px;
+	background-image: url(../images/collection_gold_1.jpg);
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+
+}
+
+.gold_item_sale_price{
+	color:#4D1F08;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
+.gold_item_price{
+	color:#957461;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	text-decoration: line-through;
+	margin-left: 20px;
+}
+
+.collection_gold_item-margin{
+	margin-left: -30px;
+	margin-top: 50px;
+}
+
+
+
+
+/*COLLECTION NATURES*/
+
+.collection_natures{
+  display: flex;
+  position: relative;
+  height: 1000px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.collection_natures_images{
+	background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.collection_natures-img1{
+	width: 60%;
+	background-image: url(../images/collection_natures_1.jpg);
+}
+
+.collection_natures-img2{
+	width: 40%;
+	background-image: url(../images/collection_natures_2.jpg);
+}
+
+.collection_natures_text h2{
+	position: absolute;
+  top: 55%;
+  left: 50%;
+	z-index: 2;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 70px;
+	font-weight: 500;
+}
+
+.collection_natures_text p{
+	position: absolute;
+  top: 80%;
+  left: 61%;
+  z-index: 2;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+
+/*REVIEW*/
+.review{
+	background-color: #D7C3A8;
+	margin-top: 130px;
+	height: 1600px;
+}
+.review_card{
+	text-align: center;
+}
+
+.review_nex_img img{
+	position: relative;
+	top: -200px;
+	left: 350px;
+	cursor: pointer;
+}
+
+
+.review_card h2{
+	text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 80px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+
+.review_text{
+	width: 520px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #4D1F08;
+}
+
+.review_text_img_top img{
+	position: relative;
+	left: -320px;
+	top: -20px;
+}
+
+.review_text_img_bottom img{
+	position: relative;
+	right: -320px;
+	top: 20px;
+}
+
+.review_card h6{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+	font-weight: 600;
+	margin-top: 30px;
+	color: #4D1F08;
+	margin-bottom: 10px;
+}
+
+.review_card_date{
+	font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+	font-weight: 400;
+	color: #4D1F08;
+}
+
+.review_item h2{
+	font-family: 'Cormorant Garamond', serif;
+  font-size: 48px;
+	font-weight: 500;
+	color: #4D1F08;
+	margin-bottom: 0;
+	margin-left: 200px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+  margin-right: 140px;
+
+}
+
+.feedback-form input{
+	border: none;
+	border-radius: 40px;
+	height: 70px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-left: 40px;
+	font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+	font-weight: 400;
+	color: #736C6C;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.feedback-form textarea{
+	border: none;
+	border-radius: 40px;
+	height: 200px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-left: 40px;
+	padding-top: 15px;
+	font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+	font-weight: 400;
+	color: #736C6C;
+	resize: none;
+	margin-top: 0;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.feedback-form button{
+	border: none;
+	border-radius: 40px;
+	text-align: center;
+	background-color: #FDE486;
+	font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+	font-weight: 400;
+	width: 300px;
+	cursor: pointer;
+	padding: 10px	0 10px 0;
+	margin-top: 30px;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/*OUR_BLOG*/
+.uor_blog h2{
+	font-family: 'Cormorant Garamond', serif;
+  font-size: 80px;
+	font-weight: 500;
+	text-align: center;
+	color: #4D1F08;
+	margin-top: 50px;
+
+}
+
+.uor_blog_box{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 30px;
+}
+
+.uor_blog h6{
+	font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+	font-weight: 700;
+	color: #4D1F08;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+}
+
+.uor_blog_box img{
+	width: 58%;
+}
+
+.our_blog_card{
+	width: 38%;
+}
+
+.our_blog_card img{
+	width: 100%;
+}
+.date{
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #957461;
+}
+.our_blog_card h6{
+	font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+	font-weight: 700;
+	color: #4D1F08;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+
+.our_blog_card_p{
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #4D1F08;
+	margin-top: 20px;
+}
+.our_blog_card_next{
+	margin-left: 0;
+}
+
+.our_blog_card_next {
+	color:#4D1F08;
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'Cormorant Garamond', serif;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+.uor_blog_date{
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #957461;
+	margin-left: 40px;
+}
+
+.uor_blog h2{
+	font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+	font-weight: 700;
+	color: #4D1F08;
+	margin-left: 40px;
+	margin-bottom: 0;
+}
+
+.uor_blog p{
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #4D1F08;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+
+
+/*PRE FOOTER*/
+.pre_footer{
+	background-image: url(../images/pre_footer.png);
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	margin-top: 80px;
+}
+
+.pre_footer_box{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.pre_footer_box h6{
+	font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 50px;
+	font-weight: 600;
+	color: #000000;
+	width: 570px;
+	margin: 0;
+}
+
+.pre_footer_box input{
+	border: 1px solid #4D1F08;
+	height: 75px;
+	margin-top: 25px;
+	padding-left: 30px;
+	font-family: 'Poppins';
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 650px;
+	color: #000000;
+
+}
+
+.pre_footer_box button{
+	background-color: #4D1F08;
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	padding: 24px 13px 24px 13px;
+	cursor: pointer;
+}
+
+
+/*FOOTER*/
+.footer{
+	background-color: #BAB0A7;
+	height: 580px;
+	margin-top: 50px;
+}
+
+.footer_box{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30PX;
+}
+
+.footer_column_1{
+	width: 30%;
+}
+
+.footer_column_2{
+	width: 14%;
+}
+
+.footer_column_3{
+	width: 14%;
+}
+
+.footer_column_4{
+	width: 14%;
+}
+
+.footer_column_5{
+	width: 22%;
+}
+
+.footer_box h6{
+	font-family: 'italiana', serif;
+	font-size:40px;
+	font-weight: 400;
+	color:#4D1F08;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.footer_box a{
+	font-family: 'Inter', sans-serif;
+	font-size:20px;
+	font-weight: 400;
+	color:#4D1F08;
+
+	text-decoration: none;
+}
+
+.link{
+	margin-top: 20px;
+}
+
+.footer_info{
+	font-family: 'Inter', sans-serif;
+	font-size:20px;
+	font-weight: 400;
+	color:#4D1F08;
+	margin-top: 10px;
+}
+
+.footer_bold{
+	font-weight: bold;
+}
+
+.social{
+	margin-top: 40px;
+
+}
+
+.social a{
+	padding-left: 10px;	
+}
+
+.footer p{
+	font-family: 'Inter', sans-serif;
+	font-size:20px;
+	font-weight: 400;
+	color:#4D1F08;
+	margin-left: 50px;
+}
